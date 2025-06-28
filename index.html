@@ -27,9 +27,20 @@
     h1 {
       text-align: center;
     }
+    .logo {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .logo img {
+      max-width: 200px;
+      height: auto;
+    }
   </style>
 </head>
 <body>
+  <div class="logo">
+    <img src="AESA Logo 4.png-1.png" alt="AESA Logo" />
+  </div>
   <h1>Request Inventory Item</h1>
   <form onsubmit="submitRequest(event)">
     <input type="text" id="itemName" placeholder="Item Name" required />
